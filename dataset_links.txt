@@ -10,9 +10,9 @@ data9:  https://www.kaggle.com/datasets/rashikrahmanpritom/177k-english-song-dat
 data10: https://www.kaggle.com/datasets/thebumpkin/10400-classic-hits-10-genres-1923-to-2023
 data11: https://www.kaggle.com/datasets/rakkesharv/spotify-top-10000-streamed-songs
 data12: https://www.kaggle.com/datasets/kanchana1990/apple-music-dataset-10000-tracks-uncovered
-data13: https://www.kaggle.com/datasets/brianblakely/top-100-songs-and-lyrics-from-1959-to-2019
+data13: https://www.kaggle.com/datasets/brianblakely/top-100-songs-and-lyrics-from-1959-to-2019     #################### cleaned up to here
 data14: https://www.kaggle.com/datasets/receplyasolu/6k-weather-labeled-spotify-songs
-data15: https://www.kaggle.com/datasets/felixsiegfriedriedel/billboard-hot-100-weekly-charts-2020 #################### cleaned up to here
+data15: https://www.kaggle.com/datasets/felixsiegfriedriedel/billboard-hot-100-weekly-charts-2020 
 data16: https://www.kaggle.com/datasets/tobennao/rym-top-5000?select=rym_raw1.csv
 data17: https://www.kaggle.com/datasets/shiivvvaam/top-songs-of-the-world
 data18: https://www.kaggle.com/datasets/nelgiriyewithana/most-streamed-spotify-songs-2024
