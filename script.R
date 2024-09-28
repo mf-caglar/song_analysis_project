@@ -62,10 +62,10 @@ gather_colnames <- function() {
     cmlt_colnames <<- sort(unique(unlist(strsplit(paste(reduced_data_info$features, collapse = " , "), split = " , "))))
 }
 
-reduced_data_info <- data.frame(data = rep(NA,50), nrow = rep(NA,50),ncol = rep(NA,50),features = rep(NA,50))
+reduced_data_info <- data.frame(data = character(), nrow = integer(),ncol = integer(),features = character())
 
-save_rd_info <- function(data,i){
-    reduced_data_info[i,] <<- c(deparse(substitute(data)),nrow(data),ncol(data),paste(colnames(data),collapse = " , "))
+save_rd_info <- function(data){
+    reduced_data_info <<- rbind(reduced_data_info,c(deparse(substitute(data)),nrow(data),ncol(data),paste(colnames(data),collapse = " , ")))
 }
 
 get_json_data <- function(data, column, parser){

@@ -26,5 +26,5 @@ data3_reduced <- data3 %>%
     arrange(artist, year, week_in_year) %>% 
     select(year, week_in_year, artist, album, song, rank, genre)
     
-save_rd_info(data3_reduced,3)
+save_rd_info(data3_reduced)
 gather_colnames()

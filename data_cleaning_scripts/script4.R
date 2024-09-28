@@ -11,6 +11,6 @@ length(dup_lyr) #same lyrics for same songs singed by different artists
 data4_reduced <- data4 %>%
     distinct(artist,song,.keep_all = TRUE) %>% select(song,artist,lyrics) %>% arrange(song,artist,lyrics)
 
-save_rd_info(data4_reduced,4)
+save_rd_info(data4_reduced)
 gather_colnames()
 rm(dup_lyr)

@@ -25,5 +25,6 @@ data2_reduced <- data2 %>% group_by(artist,album,song) %>%
     ) %>%
     arrange(artist,album,song) %>% select(artist,album,song) %>% ungroup()
 
-save_rd_info(data1_reduced,2)
+save_rd_info(data2_reduced)
 gather_colnames()
+

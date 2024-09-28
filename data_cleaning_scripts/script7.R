@@ -41,7 +41,7 @@ sum(duplicated(temp2[, c("artist", "song", "album")])) # 0
 
 data7_reduced <- temp2
 rm(temp, temp2)
-save_rd_info(data7_reduced,8)
-save_rd_info(sp_data2_7,9)
-save_rd_info(yt_data1_7,10)
+save_rd_info(data7_reduced)
+save_rd_info(sp_data2_7)
+save_rd_info(yt_data1_7)
 gather_colnames()

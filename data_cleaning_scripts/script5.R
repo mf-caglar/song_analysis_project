@@ -21,7 +21,7 @@ data5_reduced <- data5[!duplicated(data5),] %>% distinct(artist,song,.keep_all =
 
 colnames(sp_data1_5) <- sapply(colnames(sp_data1_5),function(x){gsub(" ","",paste("sp_",x))})
 
-save_rd_info(data5_reduced,5)
-save_rd_info(sp_data1_5,6)
+save_rd_info(data5_reduced)
+save_rd_info(sp_data1_5)
 gather_colnames()
 rm(spotify_cols)

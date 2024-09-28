@@ -25,7 +25,7 @@ data1_reduced <- data1 %>%
     ungroup() %>% select(date,artist,song,mean_rank,peak_rank,weeks.on.board) %>%
     arrange(artist,song,date)
 
-save_rd_info(data1_reduced,1)
+save_rd_info(data1_reduced)
 gather_colnames()
 
 

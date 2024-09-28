@@ -15,5 +15,5 @@ temp <- data6_reduced[,1:2][duplicated(data6_reduced[,1:2]),]
 nrow(temp) #no duplicated artist-song pair
 rm(temp)
 
-save_rd_info(data6_reduced,7)
+save_rd_info(data6_reduced)
 gather_colnames()

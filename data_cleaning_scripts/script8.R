@@ -11,5 +11,5 @@ setdiff(colnames(data8),cmlt_colnames)
 length(unique(data8_reduced$song))
 nrow(data8) - sum(duplicated(data8))
 
-save_rd_info(data8_reduced,11)
+save_rd_info(data8_reduced)
 gather_colnames()
