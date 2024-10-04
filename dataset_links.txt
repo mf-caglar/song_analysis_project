@@ -34,3 +34,11 @@ data33: https://www.kaggle.com/datasets/antonbelyaevd/yandex-music-top-100-songs
 data34: https://www.kaggle.com/datasets/tharunprabu/songs-data-with-full-lyrics/data
 data35: https://www.kaggle.com/datasets/ruchi798/trending-music-on-instagram-and-snapchat
 data36: https://www.kaggle.com/datasets/yuanmozhu/top-trends-on-tiktok-youtubeshorts-2022-summer
+data37: https://www.kaggle.com/datasets/thedevastator/popular-tiktok-videos-authors-and-musics
+data38: https://www.kaggle.com/datasets/patkle/metal-music-ratings-and-review-counts-from-amazon/data
+data39: https://www.kaggle.com/datasets/tunguz/classic-rock
+data40: https://www.kaggle.com/datasets/sandyhe/songs-emotion
+data41: https://www.kaggle.com/datasets/danield2255/data-on-songs-from-billboard-19992019/data
+data42: https://www.kaggle.com/datasets/revilrosa/music-label-dataset
+data43: https://www.kaggle.com/datasets/caparrini/beatsdataset
+data44: https://www.kaggle.com/datasets/pepepython/spotify-huge-database-daily-charts-over-3-years?select=Final+database.csv

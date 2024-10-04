@@ -10,7 +10,7 @@ data12_reduced <- data12 %>%
     arrange(artist, song, release_date, genre, duration_ms) %>%
     select(artist,song,release_date,genre,duration_ms)
 
-save_rd_info(data12_reduced,14)
+save_rd_info(data12_reduced)
 gather_colnames()
 
 
