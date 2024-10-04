@@ -15,17 +15,19 @@ data1_reduced <- data1 %>%
     summarize(
         # Use middle date for simplicity
         date = as.Date(median(as.numeric(as.Date(date)))), 
-        # Weighted mean of last.week (weight by weeks.on.board)
+        # mean of rank
         mean_rank = round(mean(rank)),
-        # Weighted mean of peak.rank (weight by weeks.on.board)
-        peak_rank = max(rank),
+        # max peak.rank (weight by weeks.on.board)
+        peak_rank = max(peak.rank),
         # Total weeks on board
-        weeks.on.board = max(weeks.on.board)
+        weeks_on_board = max(weeks.on.board)
     ) %>%
-    ungroup() %>% select(date,artist,song,mean_rank,peak_rank,weeks.on.board) %>%
+    ungroup() %>% select(date,artist,song,mean_rank,peak_rank,weeks_on_board) %>%
     arrange(artist,song,date)
 
+
 save_rd_info(data1_reduced,1)
+colnames(reduced_data_info) <- c("data","nrow","ncol","features")
 gather_colnames()
 
 

@@ -19,5 +19,5 @@ data11_reduced <- data11 %>% rename(artist = artistname, song = songname, days_o
     arrange(position) %>% distinct()
 setdiff(colnames(data11_reduced),cmlt_colnames)
 
-save_rd_info(data11_reduced,13)
+save_rd_info(data11_reduced)
 gather_colnames()

@@ -25,6 +25,7 @@ data3_reduced <- data3 %>%
     mutate(genre = rep("k-pop", n())) %>%  # Use n() to get the number of rows
     arrange(artist, year, week_in_year) %>% 
     select(year, week_in_year, artist, album, song, rank, genre)
-    
+
+data3_reduced <- data3_reduced %>% rename(ranking_year = year)     
 save_rd_info(data3_reduced,3)
 gather_colnames()

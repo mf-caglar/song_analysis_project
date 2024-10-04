@@ -59,11 +59,12 @@ yt_data2_13 <- temp %>% select(artist,album,song,youtube_url) %>% distinct(artis
 
 data13_reduced <- data13_reduced %>% select(-c(media,youtube_url,sp_track_id)) %>% select(artist,album,song,release_date,year,rank,lyrics)
 
+data13_reduced <- data13_reduced %>% rename(ranking_year = year)
 sum(duplicated(data13_reduced[,c(1,2,3,5)])) #no duplicated artist-album-song triples
 
 save_rd_info(data13_reduced,15)
-save_rd_info(sp_data3_13,16)
-save_rd_info(yt_data2_13,17)
+save_rd_info(sp_data3_13)
+save_rd_info(yt_data2_13)
 gather_colnames()
 
 rm(additional_media_rows,compare_useless_features,duplicates_check,media_counts,media_df,rows_omit,temp,na_prop)
